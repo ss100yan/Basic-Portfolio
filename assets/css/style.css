@@ -1,0 +1,105 @@
+*   {
+   box-sizing: border-box;
+   text-align: center;
+    }
+body 
+     {
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+      color:white;
+      background: #777;
+      font-size: 18px;
+     }
+     ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:#ebebeb;
+      }
+     li {
+      float: right;
+        }
+     li a
+      {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+     li a:hover
+     {
+      background-color: #4AAAA5;
+     }
+
+#NavLink 
+      {
+         float:right;
+         padding-left: 30px;
+         color: black;
+      } 
+      
+#Name { 
+         position: relative; 
+         left: 0px;
+         top: -72.5px;
+         z-index: 1;
+         background:#4AAAA5;
+         padding-top: 15px;
+         padding-bottom:13px; 
+         margin-left: 120px;
+         color: white;
+         float: left;
+         width: 20% ;
+            
+         }
+
+#Heading{
+         color: #4AAAA5;
+         float: left;
+         margin-right: 870px;
+         }
+ 
+ .Article {
+          position: relative; 
+          left: 0px;
+          top: -86px;
+          z-index: 1;
+         clear: both;
+         overflow: auto;
+         color:#777;
+         background:#ebebeb;
+         padding: 20px;
+         margin-bottom: 120px;
+         margin-left: 120px;
+         margin-right: 100px;
+         float: left;
+          }
+    
+img     {
+         float: left;
+        } 
+
+
+hr { 
+   display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 5px;
+}
+
+.site-footer {
+   background-color:#666666;
+   position: relative;
+   top: 450px;
+   height:60px;
+ }
+ .site-footer-top {
+      background-color:#4AAAA5;
+      position: relative;
+      top: 365px;
+      height:10px;
+    }
