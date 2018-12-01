@@ -70,7 +70,7 @@ body
          color:#777;
          background:#ebebeb;
          padding: 20px;
-         margin-bottom: 120px;
+         margin-bottom: 0px;
          margin-left: 120px;
          margin-right: 100px;
          float: left;
@@ -103,11 +103,14 @@ hr {
  .site-footer-top {
       background-color:#4AAAA5;
       position: relative;
-      top: 405px;
+      top: 402px;
       height:10px;
     }
 #FontArticle
      {
        font-family: Georgia, 'Times New Roman', Times, serif;
        font-style: italic;
-     }    
+     }   
+ #copyright{
+   font-size: 12px;
+ }     
