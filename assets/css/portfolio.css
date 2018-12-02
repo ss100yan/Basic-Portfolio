@@ -13,17 +13,18 @@
             z-index: 1;
          }     
 #img3
-         {
+         {  clear: both;
+            overflow: auto;
             position: relative;
             left: 80px;
-            top: 0px;
+            top: 10px;
             z-index: 1;
          }                                  
 #img4
          {
             position: relative;
             left: 120px;
-            top: 0px;
+            top: 10px;
             z-index: 1;
          }     
          /* projects react text */
@@ -49,8 +50,8 @@
   } 
   .text-block3 {
    position: absolute;
-   top: 320px;
-   left: 520px;
+   top: 535px;
+   left: 219px;
    background-color:#4AAAA5;
    color: white;
    padding-left: 40px;
@@ -59,8 +60,8 @@
 } 
 .text-block4 {
    position: absolute;
-   top: 320px;
-   left: 710px;
+   top: 535px;
+   left: 409px;
    background-color:#4AAAA5;
    color: white;
    padding-left: 18px;
