@@ -10,6 +10,7 @@ body
       font-size: 18px;
      }
      ul {
+     
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -32,7 +33,7 @@ body
       background-color: #4AAAA5;
      }
 
-#NavLink 
+.NavLink 
       {
          float:right;
          padding-left: 30px;
@@ -40,17 +41,14 @@ body
       } 
       
 #Name { 
-         position: relative; 
+         /* position: relative; 
          left: 0px;
          top: -72.5px;
-         z-index: 1;
+         z-index: 1; */
          background:#4AAAA5;
-         padding-top: 15px;
-         padding-bottom:13px; 
-         margin-left: 120px;
-         color: white;
-         float: left;
-         width: 20% ;
+         
+         margin-right: 600px;
+        
             
          }
 
@@ -63,7 +61,7 @@ body
  .Article {
           position: relative; 
           left: 0px;
-          top: -86px;
+          top: 20px;
           z-index: 1;
          clear: both;
          overflow: auto;
@@ -88,7 +86,8 @@ hr {
    display: block;
    margin-top: 0.5em;
    margin-bottom: 0.5em;
-  
+   margin-left: auto;
+   margin-right: auto;
    border-style: inset;
    border-width: 1.5px;
 }
