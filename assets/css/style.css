@@ -88,20 +88,22 @@ hr {
 }
 
 .site-footer {
-  clear: both;
-  overflow: auto;
-   background-color:#666666;
-   position: relative;
-   top: 130px;
-   height:60px;
+     clear: both;
+     overflow: auto;
+     background-color:#666666;
+     position: relative;
+     top: 130px;
+     height:60px;
+     width: 100%;
  }
  .site-footer-top {
-  clear: both;
-  overflow: auto;
+      clear: both;
+      overflow: auto;
       background-color:#4AAAA5;
       position: relative;
       top: 70px;
       height:10px;
+      width: 100%;
     }
 #FontArticle
      {
