@@ -29,7 +29,7 @@
          /* projects react text */
 .text-block1 {
       position: absolute;
-      top: 295px;
+      top: 320px;
       left: 140px;
       background-color:#4AAAA5;
       color: white;
@@ -39,7 +39,7 @@
   }     
   .text-block2 {
       position: absolute;
-      top: 295px;
+      top: 320px;
       left: 330px;
       background-color:#4AAAA5;
       color: white;
@@ -49,7 +49,7 @@
   } 
   .text-block3 {
    position: absolute;
-   top: 295px;
+   top: 320px;
    left: 520px;
    background-color:#4AAAA5;
    color: white;
@@ -59,7 +59,7 @@
 } 
 .text-block4 {
    position: absolute;
-   top: 295px;
+   top: 320px;
    left: 710px;
    background-color:#4AAAA5;
    color: white;

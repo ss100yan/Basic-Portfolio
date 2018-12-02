@@ -10,7 +10,9 @@ body
       font-size: 18px;
      }
      ul {
-     
+      position: fixed;
+      width: 100%;
+      z-index: 1;
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -41,15 +43,8 @@ body
       } 
       
 #Name { 
-         /* position: relative; 
-         left: 0px;
-         top: -72.5px;
-         z-index: 1; */
          background:#4AAAA5;
-         
          margin-right: 600px;
-        
-            
          }
 
 #Heading{
@@ -61,8 +56,8 @@ body
  .Article {
           position: relative; 
           left: 0px;
-          top: 20px;
-          z-index: 1;
+          top: 70px;
+          z-index: 0;
          clear: both;
          overflow: auto;
          color:#777;
@@ -81,27 +76,31 @@ img     {
 
 hr { 
    position: relative;
-   top: 45px;
+   top: 20px;
    left: 0px;
    display: block;
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
-   margin-left: auto;
-   margin-right: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 25px;
+   margin-right: 25px;
    border-style: inset;
    border-width: 1.5px;
 }
 
 .site-footer {
+  clear: both;
+  overflow: auto;
    background-color:#666666;
    position: relative;
-   top: 490px;
+   top: 130px;
    height:60px;
  }
  .site-footer-top {
+  clear: both;
+  overflow: auto;
       background-color:#4AAAA5;
       position: relative;
-      top: 402px;
+      top: 70px;
       height:10px;
     }
 #FontArticle
@@ -110,5 +109,6 @@ hr {
        font-style: italic;
      }   
  #copyright{
+  
    font-size: 12px;
  }     
